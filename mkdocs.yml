@@ -1,4 +1,5 @@
 site_name: FUL - Find Useful Links
+site_url: https://ful.celalink.co.jp/
 theme:
   name: material
   language: ja
