@@ -1,0 +1,42 @@
+site_name: FUL - Find Useful Links
+theme:
+  name: material
+  language: ja
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.tracking
+    - search.highlight
+    - content.code.copy
+    - content.external_links
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: ダークモードに切替
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: ライトモードに切替
+
+nav:
+  - Home: index.md
+  - カテゴリ:
+    - 開発: development.md
+    - ビジネス: business.md
+    - エンタメ: entertainment.md
+    - 健康: health.md
+    - 生活: life.md
+    - 翻訳: translation.md
+    - 学習系: study.md
+    - 旅行系: travel.md
+    - その他: other.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - footnotes
+  - tables
+  - attr_list
+
