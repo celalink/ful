@@ -34,7 +34,7 @@
 
     語彙・文法・リスニングなどを無料で学べる英語教材サイトで、ニュースやポッドキャスト形式のレッスンが豊富。スクリプト・クイズ・ワークシート付きで、自分のペースで進められるのが強みです。
 
-!!! tip "[VOA Learning English](https://learningenglish.voanews.com/){target=_blank)"
+!!! tip "[VOA Learning English](https://learningenglish.voanews.com/){target=_blank}"
     ```
     読み方：「ヴィオーエー ラーニング イングリッシュ」
     ```
