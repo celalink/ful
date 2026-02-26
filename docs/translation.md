@@ -1,3 +1,7 @@
+---
+description: 翻訳に役立つ便利なウェブサイト集。Google翻訳・DeepLなど多言語翻訳サービスや専門用語の翻訳ツールを紹介。
+---
+
 # 翻訳系
 
 !!! tip "[Google 翻訳](https://translate.google.co.jp/?hl=ja){target=_blank}"

@@ -1,4 +1,6 @@
 babel==2.17.0
+cairosvg
+pillow
 backrefs==5.9
 certifi==2025.8.3
 charset-normalizer==3.4.3

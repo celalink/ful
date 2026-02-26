@@ -1,0 +1,30 @@
+name: Deploy MkDocs to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install system dependencies (Cairo for Social Cards)
+        run: sudo apt-get install -y libcairo2-dev libpango1.0-dev libgdk-pixbuf2.0-dev libffi-dev
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force

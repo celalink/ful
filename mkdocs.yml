@@ -1,5 +1,7 @@
 site_name: FUL - Find Useful Links
 site_url: https://ful.celalink.co.jp/
+site_description: 便利なウェブサイトをカテゴリごとに整理したリンク集。エンジニア・学生・ビジネス・趣味問わず、役立つサイトを厳選して紹介します。
+site_author: celalink
 theme:
   name: material
   language: ja
@@ -32,6 +34,10 @@ nav:
     - 学習系: study.md
     - 旅行系: travel.md
     - その他: other.md
+
+plugins:
+  - search
+  - social
 
 markdown_extensions:
   - toc:

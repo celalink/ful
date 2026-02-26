@@ -1,3 +1,7 @@
+---
+description: カテゴリに分類されないその他の便利なウェブサイト集。フォント・ツール・ユーティリティなど様々な便利サービスを紹介。
+---
+
 # その他 
 
 !!! tip "[FONTS DOWNLOADS](https://www.nerdfonts.com/font-downloads)"
